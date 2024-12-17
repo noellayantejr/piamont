@@ -21,14 +21,20 @@ function Footer() {
           <p>Alcala Street, Brgy. Kimantong, Daraga, Albay, Philippines 4501 (Preschool Department)</p>
         </div>
 
-        <div className='card' style={{marginLeft: '50px'}}>
+        <div className='footer-section' style={{marginLeft: '50px'}}>
           <p className='card-title'>Social</p>
           
-          <p>+63918-935-5-105</p>
-          <p>0522018048</p>
+          <div className="social-btn" onClick={() => window.open("https://www.facebook.com/PiamontSchool", "_blank")}>
+            <img
+              src={require("../../assets/images/facebook.png")}
+              width={"20px"}
+              height={"20px"}
+              alt="Facebook"
+            />
+          </div>
         </div>
 
-        <div className='card'>
+        <div className='footer-section'>
           <p className='card-title'>Contact</p>
 
           <p>+63918-935-5-105</p>
@@ -36,7 +42,7 @@ function Footer() {
           <p>admin@piamont.com</p>
         </div>
 
-        <div className='card'>
+        <div className='footer-section'>
           <p className='card-title'>General</p>
 
           <p>Terms and Condition</p>

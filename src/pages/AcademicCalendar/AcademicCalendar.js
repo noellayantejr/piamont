@@ -35,7 +35,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">
+        <p className="section-title-academic-calendar">
           1. Welcoming Activity with Nutrition Month
         </p>
         <div className="academic-calendar-header-section">
@@ -106,7 +106,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">2. Intramurals</p>
+        <p className="section-title-academic-calendar">2. Intramurals</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -175,7 +175,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">
+        <p className="section-title-academic-calendar">
           3. Leadership Training (Campfire’s Burning and Fire Dance)
         </p>
         <div className="academic-calendar-header-section">
@@ -196,7 +196,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">4. Literacy Day</p>
+        <p className="section-title-academic-calendar">4. Literacy Day</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -209,7 +209,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">5. Alamat ng PiaMont</p>
+        <p className="section-title-academic-calendar">5. Alamat ng PiaMont</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -233,7 +233,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">
+        <p className="section-title-academic-calendar">
           6. Christmas Caroling and PiaMont Station ID
         </p>
         <div className="academic-calendar-header-section">
@@ -253,7 +253,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">7. PiaMont’s First Robotics Expo</p>
+        <p className="section-title-academic-calendar">7. PiaMont’s First Robotics Expo</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -272,7 +272,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">
+        <p className="section-title-academic-calendar">
           8. Hearth Day (Heart’s Day and Earth Day)
         </p>
         <div className="academic-calendar-header-section">
@@ -316,7 +316,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">9. Christmas Nativity</p>
+        <p className="section-title-academic-calendar">9. Christmas Nativity</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -335,7 +335,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title">10. PiaMont Big Box Giving</p>
+        <p className="section-title-academic-calendar">10. PiaMont Big Box Giving</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -354,7 +354,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container" style={{marginBottom: '100px'}}>
-        <p className="section-title">
+        <p className="section-title-academic-calendar">
           11. School Adaptation of Hamilton and The Little Prince
         </p>
         <div className="academic-calendar-header-section">

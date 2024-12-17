@@ -187,7 +187,7 @@ function Home(props) {
       <div className="program-container" ref={programRef}>
         <p className="section-title">Offered Programs</p>
         
-        <div className="program-section" style={{marginTop: '50px'}}>
+        <div className="program-section">
           <div className="program-card">
             <div className="circle">
             <img

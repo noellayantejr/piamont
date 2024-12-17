@@ -15,7 +15,7 @@ function Requirements(props) {
         <p className="title">Admission Requirements</p>
       </div>
       
-      <div className="container">
+      <div className="requirements-container">
         <p className="section-title">Age REQUIREMENT by October of the school year:</p>
         <div className="requirements-header-section">
           <div className="requirements-header-text">
@@ -34,7 +34,7 @@ function Requirements(props) {
         </div>
       </div>
 
-      <div className="container">
+      <div className="requirements-container">
         <p className="section-title">1. Photocopies</p>
         <div className="requirements-header-section">
           <div className="requirements-header-text">
@@ -47,7 +47,7 @@ function Requirements(props) {
         </div>
       </div>
 
-      <div className="container">
+      <div className="requirements-container">
         <p className="section-title">2. Other requirements for preschoolers and elementary transferees.</p>
         <div className="requirements-header-section">
           <div className="requirements-header-text">
@@ -60,7 +60,7 @@ function Requirements(props) {
           </div>
         </div>
 
-        <div className="requirements-header-section">
+        <div className="requirements-header-section" style={{marginBottom: '50px'}}>
           <div className="requirements-header-text">
             <p>Acceptance of transferees from the other schools will depend on the slots available. The school reserves the right to accept a new pupil to take on the place of an old pupil after the official enrolment period.</p>
           </div>
