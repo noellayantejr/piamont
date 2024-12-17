@@ -16,7 +16,7 @@ function AboutUs(props) {
       </div>
 
       <div className="about-us-container">
-        <p className="about-us-section-title">The Meaning of PiaMont</p>
+        <p className="about-us-section-title">The Meaning of Piamont</p>
         <div className="about-u-header-section">
           <div className="about-us-header-text">
             <p>
