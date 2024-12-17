@@ -1,0 +1,20 @@
+.container {
+  padding: 50px 7%;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ab3b40;
+  font-family: 'Poppins';
+}
+.requirements-header-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.requirements-header-text {
+  font-size: 18px;
+  font-family: 'Poppins';
+  color: #000000;
+  margin-left: 50px;
+}

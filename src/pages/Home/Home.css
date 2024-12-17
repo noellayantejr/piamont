@@ -1,0 +1,221 @@
+.header-section {
+  background-color: #e95b60;
+  padding: 100px 6%;
+}
+.title {
+  font-size: 56px;
+  text-transform: uppercase;
+  width: 65%;
+  font-weight: bold;
+  color: white;
+  line-height: 70px;
+  margin-bottom: 0;
+  font-family: 'Poppins';
+}
+.subtitle {
+  font-size: 35px;
+  color: #ffe51d;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.classes-start {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+.program-offered-btn {
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  height: 57px;
+  width: 188px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.container {
+  padding: 50px 7%;
+}
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ab3b40;
+  font-family: 'Poppins';
+}
+.media {
+  width: 100%;
+  height: 30rem;
+  object-fit: contain;
+}
+.carousel {
+  position: relative;
+}
+.item {
+  background-color: #2d2d2d;
+}
+.index {
+  position: absolute;
+  top: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  font-family: Roboto;
+  color: black;
+  padding: 0.1rem 0.3rem;
+  background-color: lightgray;
+  left: 1rem;
+  opacity: 0.75;
+}
+.caption-container {
+  position: absolute;
+  bottom: 0;
+  left: 20rem;
+  right: 20rem;
+}
+.caption {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: Roboto;
+  background-color: lightgray;
+  color: black;
+  width: fit-content;
+  margin: 0 auto;
+  opacity: 0.75;
+}
+.btn-prev,
+.btn-next {
+  position: absolute;
+  font-size: 50px;
+  color: lightgray;
+  cursor: pointer;
+  top: 13rem;
+}
+.btn-prev {
+  left: 1rem;
+}
+.btn-next {
+  right: 1rem;
+}
+.be-a-piamont-section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+}
+.be-a-piamont-header {
+  font-size: 32px;
+  font-family: 'Poppins';
+  margin-top: 0;
+}
+.be-a-piamont-details {
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+  color: #9fa1a4;
+  padding-right: 55px;
+  margin-bottom: 0;
+}
+.be-a-piamont-name {
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+  color: #9fa1a4;
+  padding-right: 55px;
+  margin-bottom: 0;
+}
+.be-a-piamont-major {
+  margin-top: 0;
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+  color: #9fa1a4;
+  padding-right: 55px;
+}
+.be-a-piamont-btn {
+  height: 54px;
+  border: none;
+  background: linear-gradient(-45deg, #c62b31, #95171c);
+  color: white;
+  font-size: 16px;
+  padding: 15px 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
+}
+.event-image {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+}
+.event-card-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: row;
+}
+.event-card {
+  width: 32%;
+}
+.event-card-header {
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+.event-card-date {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 10px;
+}
+.event-card-details {
+  font-family: "Roboto", sans-serif;
+  color: #9fa1a4;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.circle {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(-45deg, #c62b31, #630d10);
+  border-radius: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.program-title {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.program-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+}
+.program-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+.program-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 5% 5%;
+}
