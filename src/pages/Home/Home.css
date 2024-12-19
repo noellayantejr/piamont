@@ -1,6 +1,9 @@
 .header-section {
   background-color: #e95b60;
   padding: 100px 6%;
+  background: linear-gradient(to right, #4d0507cc 0%, #4d0507cc 100%), url('../../assets/images/school-background.png');
+  background-position: right;
+  background-size: cover
 }
 .title {
   font-size: 56px;
@@ -12,9 +15,16 @@
   margin-bottom: 0;
   font-family: 'Poppins';
 }
+.sub-caption {
+  font-size: 16px;
+  color: rgb(255 239 239);
+  text-transform: capitalize;
+  margin-left: 20px;
+  font-weight: 100;
+}
 .subtitle {
   font-size: 35px;
-  color: #ffe51d;
+  color: #00b35e;
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -153,7 +163,7 @@
 }
 .event-image {
   width: 100%;
-  height: 300px;
+  height: 280px;
   object-fit: fill;
 }
 .event-card-section {
@@ -225,4 +235,78 @@
 }
 .animate:hover {
   transform: scale(1.05);
+}
+.be-a-piamont-card {
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 31px 100px 30px;
+  }
+  .title {
+    font-size: 25px;
+    line-height: 1.3;
+    width: 100%;
+  }
+  .subtitle {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  .classes-start {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .program-offered-btn {
+    font-size: 14px;
+    height: 50px;
+    width: 170px;
+  }
+  .container {
+    padding: 0 7%;
+  }
+  .be-a-piamont-section {
+    flex-direction: column;
+  }
+  .be-a-piamont-card {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .be-a-piamont-header {
+    margin-top: 50px;
+  }
+  .be-a-piamont-details {
+    padding: 0;
+  }
+  .event-card-section {
+    flex-direction: column;
+  }
+  .event-card {
+    width: 100%;
+  }
+  .event-image {
+    height: 200px;
+  }
+  .program-section {
+    flex-direction: column;
+  }
+  .program-card {
+    width: 100%;
+  }
+  .program-title {
+    font-size: 20px;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+  }
+  .offered-icon-image {
+    width: 70px;
+    height: 70px;
+  }
 }

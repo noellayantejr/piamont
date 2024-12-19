@@ -5,10 +5,18 @@ function Footer() {
   return (
     <div className='footer-container'>
       <div className='card-container'>
-        <div>
-          <div style={{width: 100}}>
+        <div className='footer-logo-container'>
+          <div className='logo-section'>
             <img 
               src={require('../../assets/images/logo.png')}
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'contain'
+              }}
+            />
+            <img 
+              src={require('../../assets/images/lasso-logo.png')}
               style={{
                 width: '100%',
                 height: '100%',
@@ -21,7 +29,7 @@ function Footer() {
           <p className='footer-address'>Alcala Street, Brgy. Kimantong, Daraga, Albay, Philippines 4501 (Preschool Department)</p>
         </div>
 
-        <div className='footer-section' style={{marginLeft: '100px'}}>
+        <div className='footer-section social-section'>
           <p className='card-title'>Social</p>
           
           <div className="social-btn" onClick={() => window.open("https://www.facebook.com/PiamontSchool", "_blank")}>
@@ -37,16 +45,16 @@ function Footer() {
         <div className='footer-section'>
           <p className='card-title'>Contact</p>
 
-          <p>+63918-935-5-105</p>
-          <p>0522018048</p>
-          <p>admin@piamont.com</p>
+          <p className='footer-text'>+63918-935-5-105</p>
+          <p className='footer-text'>0522018048</p>
+          <p className='footer-text'>admin@piamont.com</p>
         </div>
 
         <div className='footer-section'>
           <p className='card-title'>General</p>
 
-          <p>Terms and Condition</p>
-          <p>Data Privacy</p>
+          <p className='footer-text'>Terms and Condition</p>
+          <p className='footer-text'>Data Privacy</p>
         </div>
       </div>
             

@@ -25,7 +25,7 @@ function Gallery(props) {
           style={{
             fontSize: "20px",
             fontFamily: "Roboto",
-            color: "#812e2e",
+            color: "#ffa2a2",
           }}
         >
           Events Calendar / Photos of Past Events / Event Details PiaMont School

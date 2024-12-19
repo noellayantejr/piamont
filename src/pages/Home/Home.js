@@ -50,14 +50,7 @@ function Home(props) {
     <div>
       <div className="header-section">
         <p className="title">Empowering Futures, Embracing Thinking Hearts and Loving Minds
-          <span
-            style={{
-              fontSize: '16px',
-              color: '#a93c3c',
-              textTransform: 'capitalize',
-              marginLeft: '20px'
-            }}
-          >
+          <span className="sub-caption">
             - The Piamont Way
           </span>
         </p>
@@ -95,7 +88,7 @@ function Home(props) {
       </div>
 
       <div className="container be-a-piamont-section">
-        <div style={{ width: "50%" }}>
+        <div className="be-a-piamont-card">
           <p className="be-a-piamont-header">
             What is it like to be a{" "}
             <span style={{ fontWeight: "bold", color: "#ab3b40" }}>
@@ -113,7 +106,7 @@ function Home(props) {
 
           <button className="be-a-piamont-btn">Be a Piamontian!</button>
         </div>
-        <div style={{ width: "50%" }}>
+        <div className="be-a-piamont-card">
           <img
             src={require("../../assets/images/image_1.jpg")}
             width={"100%"}
@@ -130,7 +123,6 @@ function Home(props) {
               <img
                 src={require("../../assets/images/image_2.jpg")}
                 width={"100%"}
-                height={"415px"}
                 className="event-image"
               />
 
@@ -150,7 +142,6 @@ function Home(props) {
             <img
               src={require("../../assets/images/intrams/image_2.jpg")}
               width={"100%"}
-              height={"415px"}
               className="event-image"
             />
             <div>
@@ -168,7 +159,6 @@ function Home(props) {
             <img
               src={require("../../assets/images/nutrition-month.jpg")}
               width={"100%"}
-              height={"415px"}
               className="event-image"
             />
             <div>
@@ -194,6 +184,7 @@ function Home(props) {
               src={require("../../assets/images/nursery.png")}
               width={'100px'}
               height={"100px"}
+              className="offered-icon-image"
             />
             </div>
             <p className="program-title">Nursery</p>
@@ -205,6 +196,7 @@ function Home(props) {
               src={require("../../assets/images/prekindergarten.png")}
               width={'100px'}
               height={"100px"}
+              className="offered-icon-image"
             />
             </div>
             <p className="program-title">Prekindergarten</p>
@@ -216,6 +208,7 @@ function Home(props) {
               src={require("../../assets/images/kindergarten.png")}
               width={'100px'}
               height={"100px"}
+              className="offered-icon-image"
             />
             </div>
             <p className="program-title">Kindergarten</p>
@@ -227,6 +220,7 @@ function Home(props) {
               src={require("../../assets/images/primaryschool.png")}
               width={'100px'}
               height={"100px"}
+              className="offered-icon-image"
             />
             </div>
             <p className="program-title">Primary School</p>
