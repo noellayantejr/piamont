@@ -1,5 +1,5 @@
 .about-us-container {
-  padding: 2% 5% 0 5%;
+  padding: 2% 6% 0 6%;
 }
 .about-us-section-title {
   font-size: 35px;
@@ -35,7 +35,7 @@
   text-align: center;
   box-shadow: 0 15px 45px rgba(0, 0, 0, .1);
   border-radius: 5px;
-  height: 600px;
+  height: 650px;
 }
 .mission-vision-title {
   font-family: 'Poppins';

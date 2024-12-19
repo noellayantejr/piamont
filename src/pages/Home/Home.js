@@ -5,14 +5,14 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
 const items = [
+  <div className="item" key="1">
+    <img src={require("../../assets/images/news_3.png")} className="media" />
+  </div>,
   <div className="item" key="2">
-    <img src={require("../../assets/images/image_2.jpg")} className="media" />
+    <img src={require("../../assets/images/news_1.png")} className="media" />
   </div>,
   <div className="item" key="3">
-    <img src={require("../../assets/images/image_3.jpg")} className="media" />
-  </div>,
-  <div className="item" key="4">
-    <img src={require("../../assets/images/image_4.jpg")} className="media" />
+    <img src={require("../../assets/images/news_2.png")} className="media" />
   </div>,
 ];
 
@@ -25,15 +25,13 @@ function Home(props) {
   }, []);
 
   const slideNext = () => {
-    if (mainIndex < items.length - 1) {
-      setMainIndex(mainIndex + 1);
-    }
+    setMainIndex((prevIndex) => (prevIndex + 1) % items.length);
   };
-
+  
   const slidePrev = () => {
-    if (mainIndex > 0) {
-      setMainIndex(mainIndex - 1);
-    }
+    setMainIndex((prevIndex) =>
+      prevIndex === 0 ? items.length - 1 : prevIndex - 1
+    );
   };
   
   const programRef = useRef(null);
@@ -66,7 +64,7 @@ function Home(props) {
         <p className="subtitle">Enrollment is ongoing !</p>
         <p className="classes-start">Classes start on August 8, 2024</p>
 
-        <button className="program-offered-btn" onClick={scrollToPrograms}>
+        <button className="program-offered-btn animate" onClick={scrollToPrograms}>
           Programs Offered
         </button>
       </div>
@@ -82,6 +80,8 @@ function Home(props) {
             autoPlay={true}
             autoPlayInterval={3000}
             infinite={true}
+            disableSlideInfo={true}
+            disableDotsControls
           />
           <p className="index">{`${mainIndex + 1}/${items.length}`}</p>
 
@@ -188,7 +188,7 @@ function Home(props) {
         <p className="section-title">Offered Programs</p>
         
         <div className="program-section">
-          <div className="program-card">
+          <div className="program-card animate">
             <div className="circle">
             <img
               src={require("../../assets/images/nursery.png")}
@@ -199,7 +199,7 @@ function Home(props) {
             <p className="program-title">Nursery</p>
           </div>
 
-          <div className="program-card">
+          <div className="program-card animate">
             <div className="circle">
             <img
               src={require("../../assets/images/prekindergarten.png")}
@@ -210,7 +210,7 @@ function Home(props) {
             <p className="program-title">Prekindergarten</p>
           </div>
 
-          <div className="program-card">
+          <div className="program-card animate">
             <div className="circle">
             <img
               src={require("../../assets/images/kindergarten.png")}
@@ -221,7 +221,7 @@ function Home(props) {
             <p className="program-title">Kindergarten</p>
           </div>
 
-          <div className="program-card">
+          <div className="program-card animate">
             <div className="circle">
             <img
               src={require("../../assets/images/primaryschool.png")}

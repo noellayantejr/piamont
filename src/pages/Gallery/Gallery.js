@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import "./AcademicCalendar.css";
-import ReactPlayer from "react-player";
+import "./Gallery.css";
 
-function AcademicCalendar(props) {
+function Gallery(props) {
   useEffect(() => {
     document.title = "Piamont School - academic-calendar";
     window.scrollTo(0, 0);
@@ -21,7 +20,7 @@ function AcademicCalendar(props) {
   return (
     <div>
       <div className="header-section">
-        <p className="title">Academic Calendar</p>
+        <p className="title">School Events</p>
         <p
           style={{
             fontSize: "20px",
@@ -36,7 +35,7 @@ function AcademicCalendar(props) {
 
       <div className="academic-calendar-container">
         <p className="section-title-academic-calendar">
-          1. Welcoming Activity with Nutrition Month
+          Welcoming Activity with Nutrition Month
         </p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
@@ -50,7 +49,7 @@ function AcademicCalendar(props) {
           <div className="images-container">
             <div className="images-section">
               <div style={{width: '32%'}}>
-              <img
+                <img
                   src={require("../../assets/images/nutrition_month/image_1.jpg")}
                   width={"100%"}
                   height={"277px"}
@@ -106,7 +105,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title-academic-calendar">2. Intramurals</p>
+        <p className="section-title-academic-calendar">Intramurals</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -176,7 +175,7 @@ function AcademicCalendar(props) {
 
       <div className="academic-calendar-container">
         <p className="section-title-academic-calendar">
-          3. Leadership Training (Campfire’s Burning and Fire Dance)
+          Leadership Training (Campfire’s Burning and Fire Dance)
         </p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
@@ -196,7 +195,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title-academic-calendar">4. Literacy Day</p>
+        <p className="section-title-academic-calendar">Literacy Day</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -209,7 +208,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title-academic-calendar">5. Alamat ng PiaMont</p>
+        <p className="section-title-academic-calendar">Alamat ng PiaMont</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -234,7 +233,7 @@ function AcademicCalendar(props) {
 
       <div className="academic-calendar-container">
         <p className="section-title-academic-calendar">
-          6. Christmas Caroling and PiaMont Station ID
+          Christmas Caroling and PiaMont Station ID
         </p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
@@ -253,7 +252,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title-academic-calendar">7. PiaMont’s First Robotics Expo</p>
+        <p className="section-title-academic-calendar">PiaMont’s First Robotics Expo</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -273,7 +272,7 @@ function AcademicCalendar(props) {
 
       <div className="academic-calendar-container">
         <p className="section-title-academic-calendar">
-          8. Hearth Day (Heart’s Day and Earth Day)
+          Hearth Day (Heart’s Day and Earth Day)
         </p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
@@ -316,7 +315,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title-academic-calendar">9. Christmas Nativity</p>
+        <p className="section-title-academic-calendar">Christmas Nativity</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -335,7 +334,7 @@ function AcademicCalendar(props) {
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title-academic-calendar">10. PiaMont Big Box Giving</p>
+        <p className="section-title-academic-calendar">PiaMont Big Box Giving</p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -355,7 +354,7 @@ function AcademicCalendar(props) {
 
       <div className="academic-calendar-container" style={{marginBottom: '100px'}}>
         <p className="section-title-academic-calendar">
-          11. School Adaptation of Hamilton and The Little Prince
+          School Adaptation of Hamilton and The Little Prince
         </p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
@@ -378,8 +377,8 @@ function AcademicCalendar(props) {
   );
 }
 
-AcademicCalendar.propTypes = {
+Gallery.propTypes = {
   window: PropTypes.func,
 };
 
-export default AcademicCalendar;
+export default Gallery;

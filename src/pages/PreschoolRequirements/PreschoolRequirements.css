@@ -1,0 +1,46 @@
+.requirements-container {
+  padding: 2% 6% 0 6%;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ab3b40;
+  font-family: 'Poppins';
+}
+.requirements-header-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.requirements-header-text {
+  font-size: 18px;
+  font-family: 'Poppins';
+  color: #000000;
+  margin-left: 50px;
+}
+.inquire-btn {
+  font-size: 18px;
+  background-color: #b12d32;
+  color: white;
+  border: 1px solid #896f7000;
+  height: 60px;
+  width: 200px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inquire-btn:hover {
+  background-color: #a42a2f;
+}
+.animate {
+  transition: transform 500ms ease;
+  cursor: pointer;
+}
+.animate:hover {
+  transform: scale(1.05);
+}

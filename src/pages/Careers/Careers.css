@@ -1,5 +1,5 @@
-.requirements-container {
-  padding: 2% 5% 0 5%;
+.careers-container {
+  padding: 2% 6% 0 6%;
 }
 .section-title {
   font-size: 35px;
@@ -7,12 +7,12 @@
   color: #ab3b40;
   font-family: 'Poppins';
 }
-.requirements-header-section {
+.careers-header-section {
   display: flex;
   justify-content: start;
   align-items: center;
 }
-.requirements-header-text {
+.careers-header-text {
   font-size: 18px;
   font-family: 'Poppins';
   color: #000000;

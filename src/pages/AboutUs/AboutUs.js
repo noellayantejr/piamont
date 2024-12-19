@@ -169,7 +169,7 @@ function AboutUs(props) {
                 details={"Br. Jeanoel G. Endaya, FSC, a dedicated member of the Board, brings deep experience and commitment to advancing the institution’s mission. As the Director of the Vocations Ministry Office of the De La Salle Brothers in the Philippines, he embodies the foundational values of the Lasallian tradition. Br. Jeanoel’s leadership infuses the school with a distinct Lasallian spiritual touch, fostering a culture of faith, service, and educational excellence while prioritizing compassion, community, and the holistic development of every student."}
               />
               <Card
-                imageUrl={"https://drive.google.com/thumbnail?id=1tziQb3DN9JxLgZ343JOK_GRBw-PdFuEU"}
+                imageUrl={"https://drive.google.com/thumbnail?id=15ZeQJEa--iDr_qd_lPxQeIakBh6V6h8t"}
                 name={"Amelia A. Dorosan, Ph.D."}
                 position={"Member"}
                 child={true}
