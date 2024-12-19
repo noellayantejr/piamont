@@ -8,11 +8,14 @@
 
 }
 .school-title {
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Poppins';
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 10px;
+}
+.footer-address {
+  font-size: 14px;
 }
 .footer-section {
   width: 15%;

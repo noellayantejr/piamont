@@ -88,7 +88,7 @@ function ContactUs(props) {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31084.290445741815!2d123.6664019743164!3d13.128535200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a105ccfafe4555%3A0x9badc1ca2d020c02!2sPiamont%20Elementary%20School!5e0!3m2!1sen!2sph!4v1734602630042!5m2!1sen!2sph"
               width="100%"
               height="450"
-              style={{ border: 0, marginTop: "30px" }}
+              style={{ border: 0, marginTop: "30px", marginBottom: '50px' }}
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
