@@ -25,7 +25,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           
           {/* Blank page for unknown URLs */}
-          <Route path="*" element={null} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
       <Footer />
