@@ -19,15 +19,9 @@ function Gallery(props) {
 
   return (
     <div>
-      <div className="header-section">
-        <p className="title">School Events</p>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "Roboto",
-            color: "#ffa2a2",
-          }}
-        >
+      <div className="header-section gallery-header-section">
+        <p className="title gallery-title">School Events</p>
+        <p className="gallery-header-sub-title ">
           Events Calendar / Photos of Past Events / Event Details PiaMont School
           Events Overview
         </p>
@@ -48,7 +42,7 @@ function Gallery(props) {
 
           <div className="images-container">
             <div className="images-section">
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/nutrition_month/image_1.jpg")}
                   width={"100%"}
@@ -56,7 +50,7 @@ function Gallery(props) {
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/nutrition_month/image_2.jpg")}
                   width={"100%"}
@@ -64,7 +58,7 @@ function Gallery(props) {
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/nutrition_month/image_3.jpg")}
                   width={"100%"}
@@ -74,16 +68,16 @@ function Gallery(props) {
               </div>
             </div>
 
-            <div className="images-section" style={{marginTop: '30px'}}>
-              <div style={{width: '32%'}}>
-              <img
+            <div className="images-section" style={{ marginTop: "30px" }}>
+              <div className="image-card">
+                <img
                   src={require("../../assets/images/nutrition_month/image_4.jpg")}
                   width={"100%"}
                   height={"277px"}
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/nutrition_month/image_5.jpg")}
                   width={"100%"}
@@ -91,7 +85,7 @@ function Gallery(props) {
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/nutrition_month/image_6.jpg")}
                   width={"100%"}
@@ -117,7 +111,7 @@ function Gallery(props) {
 
           <div className="images-container">
             <div className="images-section">
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/intrams/image_1.jpg")}
                   width={"100%"}
@@ -125,7 +119,7 @@ function Gallery(props) {
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/intrams/image_2.jpg")}
                   width={"100%"}
@@ -133,7 +127,7 @@ function Gallery(props) {
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/intrams/image_3.jpg")}
                   width={"100%"}
@@ -143,8 +137,8 @@ function Gallery(props) {
               </div>
             </div>
 
-            <div className="images-section" style={{marginTop: '30px'}}>
-              <div style={{width: '32%'}}>
+            <div className="images-section" style={{ marginTop: "30px" }}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/intrams/image_4.jpg")}
                   width={"100%"}
@@ -152,7 +146,7 @@ function Gallery(props) {
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/intrams/image_5.jpg")}
                   width={"100%"}
@@ -160,7 +154,7 @@ function Gallery(props) {
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/intrams/image_6.jpg")}
                   width={"100%"}
@@ -188,8 +182,8 @@ function Gallery(props) {
           </div>
           <iframe
             src="https://drive.google.com/file/d/1Wxzd7KV6IDJ7cXlRriy5HaBKxzPp1X0N/preview"
-            width="90%"
             height="600px"
+            className="video-card"
           />
         </div>
       </div>
@@ -225,8 +219,7 @@ function Gallery(props) {
 
           <iframe
             src="https://drive.google.com/file/d/1uB5QmS6DA_45_2dOhPMOT03gEApusdDb/preview"
-            width="90%"
-            height="600px"
+            className="video-card"
           />
         </div>
       </div>
@@ -245,14 +238,15 @@ function Gallery(props) {
           </div>
           <iframe
             src="https://drive.google.com/file/d/1f15-2VETaGIldzTsiv2ypc5Q6E7WnGXn/preview"
-            width="90%"
-            height="600px"
+            className="video-card"
           />
         </div>
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title-academic-calendar">PiaMont’s First Robotics Expo</p>
+        <p className="section-title-academic-calendar">
+          PiaMont’s First Robotics Expo
+        </p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -264,8 +258,7 @@ function Gallery(props) {
 
           <iframe
             src="https://drive.google.com/file/d/1gq5AWLavAbwg1cTlCsxnxxNQ1bm5imhL/preview"
-            width="90%"
-            height="600px"
+            className="video-card"
           />
         </div>
       </div>
@@ -285,15 +278,15 @@ function Gallery(props) {
 
           <div className="images-container">
             <div className="images-section">
-              <div style={{width: '32%'}}>
-              <img
+              <div className="image-card">
+                <img
                   src={require("../../assets/images/hearth_day/image_1.jpg")}
                   width={"100%"}
                   height={"277px"}
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/hearth_day/image_2.jpg")}
                   width={"100%"}
@@ -301,7 +294,7 @@ function Gallery(props) {
                   className="event-image"
                 />
               </div>
-              <div style={{width: '32%'}}>
+              <div className="image-card">
                 <img
                   src={require("../../assets/images/hearth_day/image_3.jpg")}
                   width={"100%"}
@@ -327,14 +320,15 @@ function Gallery(props) {
 
           <iframe
             src="https://drive.google.com/file/d/1psr9Ly91eDfd6vKd2wXZEZnN4Qe9w9I7/preview"
-            width="90%"
-            height="600px"
+            className="video-card"
           />
         </div>
       </div>
 
       <div className="academic-calendar-container">
-        <p className="section-title-academic-calendar">PiaMont Big Box Giving</p>
+        <p className="section-title-academic-calendar">
+          PiaMont Big Box Giving
+        </p>
         <div className="academic-calendar-header-section">
           <div className="academic-calendar-header-text">
             <p>
@@ -346,13 +340,15 @@ function Gallery(props) {
 
           <iframe
             src="https://drive.google.com/file/d/1KjvheWGIn7__jn-P1n7tWIwnJRZ4w7RB/preview"
-            width="90%"
-            height="600px"
+            className="video-card"
           />
         </div>
       </div>
 
-      <div className="academic-calendar-container" style={{marginBottom: '100px'}}>
+      <div
+        className="academic-calendar-container"
+        style={{ marginBottom: "100px" }}
+      >
         <p className="section-title-academic-calendar">
           School Adaptation of Hamilton and The Little Prince
         </p>
@@ -368,8 +364,7 @@ function Gallery(props) {
 
           <iframe
             src="https://drive.google.com/file/d/1REoH5BI8wR7M2qruE4j1j5LP5AsEV6VV/preview"
-            width="90%"
-            height="600px"
+            className="video-card"
           />
         </div>
       </div>

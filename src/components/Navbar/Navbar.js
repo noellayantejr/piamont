@@ -31,6 +31,7 @@ function Navbar() {
   };
 
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [showMobileSubMenu, setShowMobileSubMenu] = useState(false);
 
   const menuRef = useRef(null);
   // Handle click outside
@@ -48,20 +49,12 @@ function Navbar() {
   }, []);
 
   return (
-    <AppBar
-      component="nav"
-      sx={{
-        backgroundColor: "#c62b31de",
-        height: "80px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
+    <AppBar component="nav" className="nav-bar-container ">
       <Toolbar>
-        <div style={{ width: "65px", margin: "15px 10px 15px 10px" }}>
+        <div>
           <img
             src={require("../../assets/images/logo.png")}
-            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+            className="logo-image"
             alt="Logo"
           />
         </div>
@@ -77,6 +70,20 @@ function Navbar() {
           }}
         >
           PiaMont Peñafrancia Science Oriented School Inc.
+        </Typography>
+
+        <Typography
+          variant="h6"
+          component="div"
+          sx={{
+            flexGrow: 1,
+            display: { xs: "block", sm: "none" },
+            fontSize: "20px",
+            fontFamily: "Poppins",
+            fontWeight: 600,
+          }}
+        >
+          PiaMont School
         </Typography>
 
         <MenuIcon
@@ -169,7 +176,20 @@ function Navbar() {
         <p onClick={() => (window.location.href = "/")}>Home</p>
         <p onClick={() => (window.location.href = "/about-us")}>About Us</p>
         <p onClick={() => (window.location.href = "/gallery")}>Gallery</p>
-        <p>Admissions</p>
+        <p onClick={() => setShowMobileSubMenu(!showMobileSubMenu)} className="mobile-admissions-menu">
+          Admissions <KeyboardArrowDownIcon fontSize="12px" style={{marginLeft: 5}}/>
+        </p>
+        <div
+          className="mobile-sub-menu-container"
+          style={{ display: showMobileSubMenu ? "block" : "none" }}
+        >
+          <p onClick={() => (window.location.href = "/admissions/preschool")}>
+            Preschool
+          </p>
+          <p onClick={() => (window.location.href = "/admissions/elementary")}>
+            Elementary
+          </p>
+        </div>
         <p onClick={() => (window.location.href = "/careers")}>Careers</p>
         <p onClick={() => (window.location.href = "/contact-us")}>Contact us</p>
       </div>

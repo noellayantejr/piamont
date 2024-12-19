@@ -10,8 +10,8 @@ function ElementaryRequirements(props) {
 
   return (
     <div>
-      <div className="header-section">
-        <p className="title">Elementary Requirements</p>
+      <div className="header-section elementary-header-section">
+        <p className="title elementary-title">Elementary Requirements</p>
 
         <button
           className="inquire-btn animate"
@@ -22,30 +22,24 @@ function ElementaryRequirements(props) {
           Inquire Now
           <img
             src={require("../../assets/images/enroll.png")}
-            width={"35px"}
-            height={"35px"}
-            style={{ marginLeft: "10px" }}
+            className="inquire-icon-image"
           />
         </button>
       </div>
 
       <div className="requirements-container">
-        <p className="section-title">
+        <p className="section-title elementary-section-title">
           Age REQUIREMENT by October of the school year:
         </p>
         <div className="requirements-header-section" style={{ marginLeft: 0 }}>
           <div className="requirements-header-text">
-            <p>Grade 1</p>
-          </div>
-
-          <div className="requirements-header-text" style={{ marginLeft: 5 }}>
-            <p>: 6 years old (with Kindergarten Completion)</p>
+            <p>Grade 1 : 6 years old (with Kindergarten Completion)</p>
           </div>
         </div>
       </div>
 
       <div className="requirements-container">
-        <p className="section-title">1. Photocopies</p>
+        <p className="section-title elementary-section-title">1. Photocopies</p>
         <div className="requirements-header-section">
           <div className="requirements-header-text">
             <p>
@@ -71,7 +65,7 @@ function ElementaryRequirements(props) {
       </div>
 
       <div className="requirements-container">
-        <p className="section-title">
+        <p className="section-title elementary-section-title">
           2. Other requirements for preschoolers and elementary transferees.
         </p>
         <div className="requirements-header-section">

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import "./AboutUs.css";
-import Card from "./component/Card/Card"
+import Card from "./component/Card/Card";
 
 function AboutUs(props) {
   useEffect(() => {
@@ -11,8 +11,8 @@ function AboutUs(props) {
 
   return (
     <div>
-      <div className="header-section">
-        <p className="title">About Us</p>
+      <div className="header-section about-us-header-section">
+        <p className="title about-us-title ">About Us</p>
       </div>
 
       <div className="about-us-container">
@@ -85,6 +85,7 @@ function AboutUs(props) {
               width={"120px"}
               height={"120px"}
               alt="Mission"
+              className="mission-and-vision-image"
             />
             <p className="mission-vision-title">Our Mission</p>
             <p className="mission-vision-details">
@@ -104,76 +105,91 @@ function AboutUs(props) {
             </p>
           </div>
 
-          <div className="mission-vision-card" style={{ marginLeft: "50px" }}>
+          <div className="mission-vision-card vision-card">
             <img
               src={require("../../assets/images/vision.png")}
               width={"120px"}
               height={"120px"}
-              alt="Mission"
+              className="mission-and-vision-image"
+              alt="Vision"
             />
             <p className="mission-vision-title">Our Vision</p>
             <p className="mission-vision-details">
-            Piamont envisions itself to be a leading institution with its ultimate goal of multiplying holistically developed learners that are of service to God, humanity, and the environment.
+              Piamont envisions itself to be a leading institution with its
+              ultimate goal of multiplying holistically developed learners that
+              are of service to God, humanity, and the environment.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="about-us-container" style={{marginBottom: '100px'}}>
+      <div className="about-us-container" style={{ marginBottom: "100px" }}>
         <p className="about-us-section-title">Board of Trustees</p>
         <div className="about-u-header-section">
           <div className="about-us-header-text">
-
             <div
               style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
               <Card
-                imageUrl={"https://drive.google.com/thumbnail?id=1BGCz4bHGIL_zL1x-CEo27RHttRJT83yF"}
+                imageUrl={
+                  "https://drive.google.com/thumbnail?id=1BGCz4bHGIL_zL1x-CEo27RHttRJT83yF"
+                }
                 name={"Maria Aveline P. Averilla, Ph.D."}
                 position={"Founder/Chairman"}
-                details={"Dr. Maria Aveline P. Averilla, Founder and Chairman of the Board, is a distinguished educator with a Ph.D. in Educational Psychology. Her unwavering leadership, strategic vision, and commitment to academic excellence have been pivotal in shaping the institution's success, ensuring a strong foundation for future generations."}
+                details={
+                  "Dr. Maria Aveline P. Averilla, Founder and Chairman of the Board, is a distinguished educator with a Ph.D. in Educational Psychology. Her unwavering leadership, strategic vision, and commitment to academic excellence have been pivotal in shaping the institution's success, ensuring a strong foundation for future generations."
+                }
               />
             </div>
 
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                marginTop: '50px'
-              }}
-            >
+            <div className="bord-of-trustees-members">
               <Card
-                imageUrl={"https://drive.google.com/thumbnail?id=1LLpVkzS99Pxj_q4A1uTbqNr6Ve86Psn3"}
+                imageUrl={
+                  "https://drive.google.com/thumbnail?id=1LLpVkzS99Pxj_q4A1uTbqNr6Ve86Psn3"
+                }
                 name={"Jou Sung A. Jung"}
                 position={"Corporate Treasurer"}
                 child={true}
-                details={"Mr. Jou Sung A. Jung, serving as the Corporate Treasurer, brings invaluable financial expertise and strategic insight to the Board. As a graduate of Information Technology from Bicol University, Legaspi City, he combines technical acumen with financial knowledge. His commitment to fiscal responsibility and sustainable growth ensures the institution's stability and continued progress, while safeguarding the interests of all stakeholders."}
+                details={
+                  "Mr. Jou Sung A. Jung, serving as the Corporate Treasurer, brings invaluable financial expertise and strategic insight to the Board. As a graduate of Information Technology from Bicol University, Legaspi City, he combines technical acumen with financial knowledge. His commitment to fiscal responsibility and sustainable growth ensures the institution's stability and continued progress, while safeguarding the interests of all stakeholders."
+                }
               />
               <Card
-                imageUrl={"https://drive.google.com/thumbnail?id=1E0W2wgz9w5GbeLp3bhozuVg91EfrKI2Z"}
+                imageUrl={
+                  "https://drive.google.com/thumbnail?id=1E0W2wgz9w5GbeLp3bhozuVg91EfrKI2Z"
+                }
                 name={"Atty. Joseph L. Bartolata"}
                 position={"Corporate Secretary"}
                 child={true}
-                details={"Atty. Joseph L. Bartolata, the Corporate Secretary, plays a crucial role in the governance and integrity of the institution. As the current Dean of the College of Law at Bicol University, Legaspi City, he brings unparalleled legal expertise and leadership. His commitment to transparency, compliance, and accountability upholds the highest ethical standards, ensuring the Board’s operations remain transparent, compliant, and effective."}
+                details={
+                  "Atty. Joseph L. Bartolata, the Corporate Secretary, plays a crucial role in the governance and integrity of the institution. As the current Dean of the College of Law at Bicol University, Legaspi City, he brings unparalleled legal expertise and leadership. His commitment to transparency, compliance, and accountability upholds the highest ethical standards, ensuring the Board’s operations remain transparent, compliant, and effective."
+                }
               />
               <Card
-                imageUrl={"https://drive.google.com/thumbnail?id=1GS94j_I7mI3oDg-4i2SzGNpRSKPYhYMf"}
+                imageUrl={
+                  "https://drive.google.com/thumbnail?id=1GS94j_I7mI3oDg-4i2SzGNpRSKPYhYMf"
+                }
                 name={"Jeanoel G. Endaya, FSC"}
                 position={"Member"}
                 child={true}
-                details={"Br. Jeanoel G. Endaya, FSC, a dedicated member of the Board, brings deep experience and commitment to advancing the institution’s mission. As the Director of the Vocations Ministry Office of the De La Salle Brothers in the Philippines, he embodies the foundational values of the Lasallian tradition. Br. Jeanoel’s leadership infuses the school with a distinct Lasallian spiritual touch, fostering a culture of faith, service, and educational excellence while prioritizing compassion, community, and the holistic development of every student."}
+                details={
+                  "Br. Jeanoel G. Endaya, FSC, a dedicated member of the Board, brings deep experience and commitment to advancing the institution’s mission. As the Director of the Vocations Ministry Office of the De La Salle Brothers in the Philippines, he embodies the foundational values of the Lasallian tradition. Br. Jeanoel’s leadership infuses the school with a distinct Lasallian spiritual touch, fostering a culture of faith, service, and educational excellence while prioritizing compassion, community, and the holistic development of every student."
+                }
               />
               <Card
-                imageUrl={"https://drive.google.com/thumbnail?id=15ZeQJEa--iDr_qd_lPxQeIakBh6V6h8t"}
+                imageUrl={
+                  "https://drive.google.com/thumbnail?id=15ZeQJEa--iDr_qd_lPxQeIakBh6V6h8t"
+                }
                 name={"Amelia A. Dorosan, Ph.D."}
                 position={"Member"}
                 child={true}
-                details={"Dr. Amelia A. Dorosan, Ph.D., a respected and insightful member of the Board, brings her extensive expertise in education and leadership. As a retired Vice President for Academic Affairs at Bicol University, Legaspi City, she continues to support the institution’s academic initiatives, strategic planning, and commitment to holistic development. Dr. Dorosan’s guidance ensures that all endeavors align with the institution's pursuit of academic excellence and purpose-driven educational growth."}
+                details={
+                  "Dr. Amelia A. Dorosan, Ph.D., a respected and insightful member of the Board, brings her extensive expertise in education and leadership. As a retired Vice President for Academic Affairs at Bicol University, Legaspi City, she continues to support the institution’s academic initiatives, strategic planning, and commitment to holistic development. Dr. Dorosan’s guidance ensures that all endeavors align with the institution's pursuit of academic excellence and purpose-driven educational growth."
+                }
               />
             </div>
           </div>

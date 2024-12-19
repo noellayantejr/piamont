@@ -44,3 +44,33 @@
 .animate:hover {
   transform: scale(1.05);
 }
+.inquire-icon-image {
+  width: 35px;
+  height: 35x;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .elementary-title {
+    font-size: 40px;
+  }
+  .elementary-header-section {
+    padding: 100px 30px 50px 30px;
+  }
+  .inquire-btn {
+    font-size: 14px;
+    height: 50px;
+    width: 170px;
+  }
+  .inquire-icon-image {
+    width: 25px;
+    height: 25px;
+  }
+  .elementary-section-title {
+    font-size: 25px !important;
+  }
+  .requirements-header-text {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}

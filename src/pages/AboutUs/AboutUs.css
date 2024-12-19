@@ -49,3 +49,53 @@
   line-height: 1.5;
   color: #8e8e8e;
 }
+.vision-card {
+  margin-left: 50px;
+}
+.bord-of-trustees-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-title {
+    font-size: 40px;
+  }
+  .about-us-header-section {
+    padding: 100px 30px 50px 30px;
+  }
+  .about-us-section-title {
+    font-size: 25px;
+  }
+  .about-us-header-text {
+    font-size: 14px;
+  }
+  .mission-vission-container {
+    flex-direction: column;
+  }
+  .mission-vision-card {
+    width: 80%;
+    padding: 30px 30px 30px 30px;
+  }
+  .mission-vision-title {
+    font-size: 25px;
+  }
+  .mission-and-vision-image {
+    width: 80px;
+    height: 80px;
+  }
+  .mission-vision-details {
+    font-size: 14px;
+  }
+  .vision-card {
+    margin-left: 0;
+    height: 280px;
+    margin-top: 50px;
+  }
+  .bord-of-trustees-members {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}

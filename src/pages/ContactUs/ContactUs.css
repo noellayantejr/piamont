@@ -12,7 +12,7 @@
   justify-content: start;
   align-items: center;
 }
-.requirements-header-text {
+.contact-us-header-text {
   font-size: 18px;
   font-family: 'Poppins';
   color: #000000;
@@ -25,10 +25,47 @@
   cursor: pointer;
   transition: transform 500ms ease;
 }
-.animate {
+.animate-contact-us {
   transition: transform 500ms ease;
   cursor: pointer;
 }
-.animate:hover {
+.animate-contact-us:hover {
   transform: scale(1.05);
+}
+.location-icon-image {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-us-title {
+    font-size: 40px;
+  }
+  .contact-us-header-section {
+    padding: 100px 30px 50px 30px;
+  }
+  .careers-section-title {
+    font-size: 25px;
+  }
+  .careers-section-title-location {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .careers-header-text {
+    margin-left: 0;
+    font-size: 16px;
+  }
+  .contact-us-header-text {
+    margin-left: 0;
+    font-size: 14px;
+  }
+  .animate-contact-us:hover {
+    transform: scale(1);
+  }
+  .location-icon-image {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+  }
 }

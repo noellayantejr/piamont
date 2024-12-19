@@ -309,4 +309,8 @@
     width: 70px;
     height: 70px;
   }
+  .sub-caption {
+    font-size: 14px;
+    margin-left: 10px;
+  }
 }

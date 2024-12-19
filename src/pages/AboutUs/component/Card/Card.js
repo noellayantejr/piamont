@@ -4,7 +4,7 @@ import "./Card.css";
 
 function Card({ name, position, details, imageUrl, child }) {
   return (
-    <div className="card" style={child ? {marginLeft: '20px'} : {}}>
+    <div className={`card ${child ? "card-with-margin" : ""}`}>
       <div>
         <img
           src={imageUrl}
