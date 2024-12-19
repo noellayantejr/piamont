@@ -62,11 +62,11 @@ function ContactUs(props) {
           />
           <div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.2527230843316!2d123.73202377676694!3d13.146452454143171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a103d89c2b5f3f%3A0x73c4f44c89d038ad!2s6th%20St%2C%20Legazpi%20City%2C%20Albay!5e0!3m2!1sen!2sph!4v1734602058129!5m2!1sen!2sph"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.233966225541!2d123.71164499999998!3d13.147636700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a103fe8fe818b3%3A0x4a69d454fbc05282!2sPiamont%20SCIENCE%20ORIENTED%20SCHOOL%20for%20KIDS!5e0!3m2!1sen!2sph!4v1734602545312!5m2!1sen!2sph"
               width="100%"
               height="450"
+              style={{ border: 0, marginTop: "30px" }}
               allowfullscreen=""
-              style={{border: 0, marginTop: '30px'}}
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
@@ -85,10 +85,10 @@ function ContactUs(props) {
           />
           <div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.23921869306!2d123.70930157466834!3d13.14730508718442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a103fe8928ea19%3A0x2313f911f5f9dcc7!2sAlcala%20Street%2C%20Daraga%2C%20Albay!5e0!3m2!1sen!2sph!4v1734602276091!5m2!1sen!2sph"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31084.290445741815!2d123.6664019743164!3d13.128535200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a105ccfafe4555%3A0x9badc1ca2d020c02!2sPiamont%20Elementary%20School!5e0!3m2!1sen!2sph!4v1734602630042!5m2!1sen!2sph"
               width="100%"
               height="450"
-              style={{border: 0, marginTop: '30px', marginBottom: '100px'}}
+              style={{ border: 0, marginTop: "30px" }}
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
