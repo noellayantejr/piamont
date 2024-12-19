@@ -11,10 +11,9 @@ import Careers from './pages/Careers/Careers';
 import ContactUs from './pages/ContactUs/ContactUs';
 
 function App() {
-
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,9 +23,12 @@ function App() {
           <Route path="/admissions/elementary" element={<ElementaryRequirements />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          
+          {/* Blank page for unknown URLs */}
+          <Route path="*" element={null} />
         </Routes>
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 }
