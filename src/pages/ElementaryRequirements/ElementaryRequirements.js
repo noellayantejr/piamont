@@ -4,7 +4,7 @@ import "./ElementaryRequirements.css";
 
 function ElementaryRequirements(props) {
   useEffect(() => {
-    document.title = "Piamont School - Requirements";
+    document.title = "Piamont School - Elementary Requirements";
     window.scrollTo(0, 0);
   }, []);
 

@@ -4,7 +4,7 @@ import "./Gallery.css";
 
 function Gallery(props) {
   useEffect(() => {
-    document.title = "Piamont School - academic-calendar";
+    document.title = "Piamont School - Gallery";
     window.scrollTo(0, 0);
   }, []);
 

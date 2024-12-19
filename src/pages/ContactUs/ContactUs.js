@@ -4,7 +4,7 @@ import "./ContactUs.css";
 
 function ContactUs(props) {
   useEffect(() => {
-    document.title = "Piamont School - Requirements";
+    document.title = "Piamont School - Contact Us";
     window.scrollTo(0, 0);
   }, []);
 

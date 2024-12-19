@@ -4,7 +4,7 @@ import "./Careers.css";
 
 function Careers(props) {
   useEffect(() => {
-    document.title = "Piamont School - careers";
+    document.title = "Piamont School - Careers";
     window.scrollTo(0, 0);
   }, []);
 

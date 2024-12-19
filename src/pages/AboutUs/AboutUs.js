@@ -5,7 +5,7 @@ import Card from "./component/Card/Card";
 
 function AboutUs(props) {
   useEffect(() => {
-    document.title = "Piamont School - Requirements";
+    document.title = "Piamont School - About Us";
     window.scrollTo(0, 0);
   }, []);
 
