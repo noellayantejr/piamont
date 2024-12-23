@@ -27,21 +27,22 @@ function Home(props) {
   const slideNext = () => {
     setMainIndex((prevIndex) => (prevIndex + 1) % items.length);
   };
-  
+
   const slidePrev = () => {
     setMainIndex((prevIndex) =>
       prevIndex === 0 ? items.length - 1 : prevIndex - 1
     );
   };
-  
+
   const programRef = useRef(null);
 
   const scrollToPrograms = () => {
     const yOffset = -100;
     const element = programRef.current;
-  
+
     if (element) {
-      const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      const yPosition =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: yPosition, behavior: "smooth" });
     }
   };
@@ -49,15 +50,17 @@ function Home(props) {
   return (
     <div>
       <div className="header-section">
-        <p className="title">Empowering Futures, Embracing Thinking Hearts and Loving Minds
-          <span className="sub-caption">
-            - The Piamont Way
-          </span>
+        <p className="title">
+          Empowering Futures, Embracing Thinking Hearts and Loving Minds
+          <span className="sub-caption">- The Piamont Way</span>
         </p>
         <p className="subtitle">Enrollment is ongoing !</p>
-        <p className="classes-start">Classes start on August 8, 2024</p>
+        <p className="classes-start">Classes start on August 4, 2025</p>
 
-        <button className="program-offered-btn animate" onClick={scrollToPrograms}>
+        <button
+          className="program-offered-btn animate"
+          onClick={scrollToPrograms}
+        >
           Programs Offered
         </button>
       </div>
@@ -96,9 +99,19 @@ function Home(props) {
             </span>
           </p>
           <p className="be-a-piamont-details">
-          We are delighted to have you join the PiaMont community—a place where learning goes beyond books and classrooms. At PiaMont, we cherish Christian values, holistic development, and academic excellence, guiding each student to become a respectful, responsible, and compassionate individual.
-          Our approach combines technological innovation, creative learning methods, and a strong sense of community commitment, ensuring that students grow into culturally grounded global contributors. We aim to equip every learner with the skills, knowledge, and character to thrive in a fast-changing world while staying connected to their roots and purpose.
-          Together, let’s inspire curiosity, foster creativity, and build a future filled with promise and possibilities. Welcome to PiaMont—where every child’s potential is nurtured, dreams take flight, and success becomes a shared journey. 🌟
+            At PiaMont, learning goes far beyond the classroom and textbooks. We
+            embrace Christian values, foster holistic development, and strive
+            for academic excellence, shaping students into respectful,
+            responsible, and compassionate individuals. Our approach blends
+            technological innovation, creative teaching methods, and a strong
+            sense of community commitment, ensuring that students grow into
+            culturally grounded global contributors. We aim to equip every
+            learner with the skills, knowledge, and character to thrive in a
+            fast-changing world while staying connected to their roots and
+            purpose. Together, let’s inspire curiosity, foster creativity, and
+            build a future filled with promise and possibilities. Welcome to
+            PiaMont! Where every child’s potential is nurtured, dreams take
+            flight, and success becomes a shared journey.
           </p>
 
           <p className="be-a-piamont-name">MARIA AVELINE P. AVERILLA, PH.D</p>
@@ -132,7 +145,9 @@ function Home(props) {
                 </p>
                 {/* <p className="event-card-date">March 27, 2024 • By Forbes Scribe</p> */}
                 <p className="event-card-details">
-                  Hearth Day combines Heart’s Day and Earth Day to teach students compassion and environmental responsibility. It emphasizes caring for both people and the environment.
+                  Hearth Day combines Heart’s Day and Earth Day to teach
+                  students compassion and environmental responsibility. It
+                  emphasizes caring for both people and the environment.
                 </p>
               </div>
             </div>
@@ -150,7 +165,9 @@ function Home(props) {
               </p>
               {/* <p className="event-card-date">March 27, 2024 • By Forbes Scribe</p> */}
               <p className="event-card-details">
-                The intramurals highlight sportsmanship, cooperation, and discipline. It provides opportunities for students to showcase their athletic skills while learning teamwork and camaraderie.
+                The intramurals highlight sportsmanship, cooperation, and
+                discipline. It provides opportunities for students to showcase
+                their athletic skills while learning teamwork and camaraderie.
               </p>
             </div>
           </div>
@@ -167,7 +184,9 @@ function Home(props) {
               </p>
               {/* <p className="event-card-date">March 27, 2024 • By Forbes Scribe</p> */}
               <p className="event-card-details">
-              This activity sets the stage for a healthy and collaborative school year. It focuses on building teamwork, promoting wellness, and encouraging students to embrace nutritious habits.
+                This activity sets the stage for a healthy and collaborative
+                school year. It focuses on building teamwork, promoting
+                wellness, and encouraging students to embrace nutritious habits.
               </p>
             </div>
           </div>
@@ -176,52 +195,52 @@ function Home(props) {
 
       <div className="program-container" ref={programRef}>
         <p className="section-title">Offered Programs</p>
-        
+
         <div className="program-section">
           <div className="program-card animate">
             <div className="circle">
-            <img
-              src={require("../../assets/images/nursery.png")}
-              width={'100px'}
-              height={"100px"}
-              className="offered-icon-image"
-            />
+              <img
+                src={require("../../assets/images/nursery.png")}
+                width={"100px"}
+                height={"100px"}
+                className="offered-icon-image"
+              />
             </div>
             <p className="program-title">Nursery</p>
           </div>
 
           <div className="program-card animate">
             <div className="circle">
-            <img
-              src={require("../../assets/images/prekindergarten.png")}
-              width={'100px'}
-              height={"100px"}
-              className="offered-icon-image"
-            />
+              <img
+                src={require("../../assets/images/prekindergarten.png")}
+                width={"100px"}
+                height={"100px"}
+                className="offered-icon-image"
+              />
             </div>
             <p className="program-title">Prekindergarten</p>
           </div>
 
           <div className="program-card animate">
             <div className="circle">
-            <img
-              src={require("../../assets/images/kindergarten.png")}
-              width={'100px'}
-              height={"100px"}
-              className="offered-icon-image"
-            />
+              <img
+                src={require("../../assets/images/kindergarten.png")}
+                width={"100px"}
+                height={"100px"}
+                className="offered-icon-image"
+              />
             </div>
             <p className="program-title">Kindergarten</p>
           </div>
 
           <div className="program-card animate">
             <div className="circle">
-            <img
-              src={require("../../assets/images/primaryschool.png")}
-              width={'100px'}
-              height={"100px"}
-              className="offered-icon-image"
-            />
+              <img
+                src={require("../../assets/images/primaryschool.png")}
+                width={"100px"}
+                height={"100px"}
+                className="offered-icon-image"
+              />
             </div>
             <p className="program-title">Primary School</p>
           </div>

@@ -24,7 +24,7 @@ function Footer() {
               }}
             />
           </div>
-          <p className='school-title'>PiaMont Peñafrancia Science Oriented School Inc.</p>
+          <p className='school-title'>PiaMont Penafrancia Science Oriented School Foundation Inc.</p>
           <p className='footer-address'>P-6, Brgy. Peñafrancia Daraga, Albay, Philippines 4501 (Elementary Department)</p>
           <p className='footer-address'>Alcala Street, Brgy. Kimantong, Daraga, Albay, Philippines 4501 (Preschool Department)</p>
         </div>
@@ -45,8 +45,8 @@ function Footer() {
         <div className='footer-section'>
           <p className='card-title'>Contact</p>
 
-          <p className='footer-text'>+63918-935-5-105</p>
-          <p className='footer-text'>0522018048</p>
+          <p className='footer-text'>{'(+63) 918-935-5-105'}</p>
+          <p className='footer-text'>{'(052) 2018048'}</p>
           <p className='footer-text'>admin@piamont.com</p>
         </div>
 

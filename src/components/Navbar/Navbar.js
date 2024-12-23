@@ -64,12 +64,12 @@ function Navbar() {
           sx={{
             flexGrow: 1,
             display: { xs: "none", sm: "block" },
-            fontSize: "23px",
+            fontSize: "20px",
             fontFamily: "Poppins",
             fontWeight: 600,
           }}
         >
-          PiaMont Peñafrancia Science Oriented School Inc.
+          PiaMont Penafrancia Science Oriented School Foundation Inc.
         </Typography>
 
         <Typography
@@ -84,7 +84,7 @@ function Navbar() {
             width: '100px !important'
           }}
         >
-          PiaMont Peñafrancia Science <br/>Oriented School Inc.
+          PiaMont Penafrancia Science <br/>Oriented School Foundation Inc. 
         </Typography>
 
         <MenuIcon
