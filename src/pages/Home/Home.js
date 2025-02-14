@@ -55,7 +55,7 @@ function Home(props) {
           <span className="sub-caption">- The Piamont Way</span>
         </p>
         <p className="subtitle">Enrollment is ongoing !</p>
-        <p className="classes-start">Classes start on August 4, 2025</p>
+        <p className="classes-start">Classes start on JUNE 2025</p>
 
         <button
           className="program-offered-btn animate"
